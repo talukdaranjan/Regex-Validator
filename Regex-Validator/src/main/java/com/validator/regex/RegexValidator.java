@@ -46,4 +46,5 @@ public class RegexValidator {
     public static boolean hasJavascript(String string) {
         return string.matches("^(</script>)+$");
     }
+
 }
