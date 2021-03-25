@@ -35,3 +35,7 @@ Following methods are available in the current version:
 | isDecimalNumeric | Check if the string contains decimal numeric | boolean |
 | isEmail | Check if the string is a valid email | boolean |
 | isNumeric | Check if the string is numeric | boolean |
+| isNumBetween | Check if the input number is between the given range | boolean |
+| isNumBetweenOrEqual | Check if the input number is between or equal to the given range | boolean |
+| isLengthBetween | Check if the string length is between the given range | boolean |
+| hasJavascript | Check if the string contains any javascript tags | boolean |
