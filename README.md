@@ -11,7 +11,7 @@ Easiest way to validate user inputs in your android project with the help of reg
 -   **Step 2**: Add the dependency
 
 ```gradle
-    implementation 'com.github.talukdaranjan:Validator-Regex:1.1'
+    implementation 'com.github.talukdaranjan:Validator-Regex:1.2'
 ```
 
 Do not forget to update the dependency to the latest version.
