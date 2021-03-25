@@ -30,4 +30,20 @@ public class RegexValidator {
         return string.matches("^((?!\\.)[\\w\\-_.]*[^.])(@\\w+)(\\.\\w+(\\.\\w+)?[^.\\W])$");
     }
 
+    public static boolean isNumBetween(int number, int minRange, int maxRange) {
+        return number > minRange && number < maxRange;
+    }
+
+    public static boolean isNumBetweenOrEqual(int number, int minRange, int maxRange) {
+        return number >= minRange && number <= maxRange;
+    }
+
+    public static boolean isLengthBetween(String string, int minCharacter, int maxCharacter) {
+        int strLength = string.length();
+        return strLength >= minCharacter && strLength <= maxCharacter;
+    }
+
+    public static boolean hasJavascript(String string) {
+        return string.matches("^(</script>)+$");
+    }
 }
